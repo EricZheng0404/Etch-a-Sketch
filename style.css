@@ -1,0 +1,57 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  background-color: #f0f0f0;
+}
+
+.grid-cell {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: background-color 0.1s ease;
+}
+
+.grid-cell:hover {
+  background-color: black;
+}
+
+/* Color picker styling */
+#color-picker {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+#color-picker option {
+  padding: 8px;
+}
+
+/* Note: Most browsers don't support styling option elements well */
+/* Alternative: Create a custom color picker with buttons */
+.color-buttons {
+  display: flex;
+  gap: 8px;
+  margin-left: 20px;
+}
+
+.color-button {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.color-button:hover {
+  transform: scale(1.1);
+}
+
+.color-button.active {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px #333;
+}
+
+#change-size {
+  margin: 20px;
+}

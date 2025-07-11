@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex-container"></div>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      "
+    >
+      <button
+        id="change-size"
+        style="height: 36px; font-size: 16px; padding: 0 16px"
+      >
+        Change Size
+      </button>
+      <button
+        id="clear-grid"
+        style="height: 36px; font-size: 16px; padding: 0 16px"
+      >
+        Clear Grid
+      </button>
+      <div class="color-buttons">
+        <button
+          class="color-button active"
+          data-color="black"
+          style="background-color: black"
+        ></button>
+        <button
+          class="color-button"
+          data-color="red"
+          style="background-color: red"
+        ></button>
+        <button
+          class="color-button"
+          data-color="blue"
+          style="background-color: blue"
+        ></button>
+        <button
+          class="color-button"
+          data-color="green"
+          style="background-color: green"
+        ></button>
+        <button
+          class="color-button"
+          data-color="yellow"
+          style="background-color: yellow"
+        ></button>
+        <button
+          class="color-button"
+          data-color="purple"
+          style="background-color: purple"
+        ></button>
+        <button
+          class="color-button"
+          data-color="orange"
+          style="background-color: orange"
+        ></button>
+      </div>
+    </div>
+  </body>
+</html>
